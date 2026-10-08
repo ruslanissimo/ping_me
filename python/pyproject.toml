@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ping-me-telegram"
+version = "0.1.0"
+description = "The module allows to send messages from users code to Telegram account"
+readme = "README.md"
+authors = [
+    {name = "Ruslan Shaiakhmetov",email = "263468830+ruslanissimo@users.noreply.github.com"}
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
